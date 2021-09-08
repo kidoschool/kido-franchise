@@ -4,7 +4,20 @@ import KidoLogo from '../../assets/kido-ablogo.jpg';
 import SafariLogo from '../../assets/safari-logo.jpg';
 import SchoolNetwork from '../../assets/school-network-bn.jpg';
 import Ceo from '../../assets/ceo.png';
+import Team1 from '../../assets/philippe.jpg';
+import Team2 from '../../assets/pallavi.png';
+import Team3 from '../../assets/umair.jpg';
+import Team4 from '../../assets/deepanshu.jpg';
+import Team5 from '../../assets/jeetu.jpg';
+import Team6 from '../../assets/emma.jpg';
+import Team7 from '../../assets/sheetal.jpg';
+import Team8 from '../../assets/kawan.jpg';
+import Team9 from '../../assets/liam.jpg';
+import Team10 from '../../assets/fruzsina.jpg';
+import Team11 from '../../assets/shilpa.jpg';
 import Map3 from "../../components/Map/Map3";
+import $ from 'jquery';
+
 
 
 
@@ -334,7 +347,16 @@ function About(props){
     const [ map_zoom, setMap_zoom ] = useState("");
     const [ map_centre, setMap_centre ] = useState({lat: 19,lng: 10});
 
-
+    // $(document).ready(function(){
+    //     $(".lg-team-data").hover(function(){
+    //       $(".lg-team-data").css("display" , "none");
+    //       $(".sm-team-data").css("display" , "block");
+    //     });
+    //     $(".sm-team-data").hover(function(){
+    //         $(".sm-team-data").css("display" , "none");
+    //         $(".lg-team-data").css("display" , "block");
+    //       });
+    //   });
 
     return(
       <>
@@ -443,8 +465,61 @@ function About(props){
                     <div className="col-lg-11">
                         <h1 className="team-text font-weight-bolder">The Team</h1>
                         <p>Our core team has multiple years experience across education, banking, finance, design, hospitality, marketing and much else. We also have several years experience in raising children in different cultures, cities and countries. We have over thirty professionals in six different hubs around the world, giving us in depth expertise, cross-cultural sensibility and an ability to service parents and clients across the world.</p>
-                        <div className="offering-link text-center py-4">
-                            <a href="#" className="my-btn center">Our franchise offering</a>
+                        <div className="team-listing pt-4">
+                            <div className="row">
+                                <div className="col-lg-3 text-center">
+                                    <div className="lg-team-data">
+                                        <img src={Team1} className="team-img img-fluid" alt="teams"/>
+                                        <div className="team-data pt-3">
+                                            <h5>Philippe Sachs</h5>
+                                            <small>Deputy CEO, CEO UK,</small><br/>
+                                            <small>London</small>
+                                        </div>
+                                    </div>
+                                    <div className="sm-team-data pt-4 d-none">
+                                        <p class="text-center">Head of Public Sector, Standard Chartered. Ex Goldman, JP Morgan. Member, Council of Foreign Relations. Georgetown University.</p>
+                                    </div>
+                                </div>
+                                <div className="col-lg-3 text-center">
+                                    <div className="lg-team-data">
+                                        <img src={Team2} className="team-img img-fluid" alt="teams"/>
+                                        <div className="team-data pt-3">
+                                            <h5>Pallavi Nath</h5>
+                                            <small>COO, CEO Asia</small><br/>
+                                            <small>Singapore</small>
+                                        </div>
+                                    </div>
+                                    <div className="sm-team-data pt-4 d-none">
+                                        <p class="text-center">Head of Revenue Management, Conrad Asia. Vice President HSMAI South Asia. Cornell University.</p>
+                                    </div>
+                                </div>
+                                <div className="col-lg-3 text-center">
+                                    <div className="lg-team-data">
+                                        <img src={Team3} className="team-img img-fluid" alt="teams"/>
+                                        <div className="team-data pt-3">
+                                            <h5>Umair Tariq</h5>
+                                            <small>CFO, CEO ME&Africa</small><br/>
+                                            <small>Dubai</small>
+                                        </div>
+                                    </div>
+                                    <div className="sm-team-data pt-4 d-none">
+                                        <p class="text-center">Head of Africa Structuring, Standard Chartered. London School of Economics, CFA.</p>
+                                    </div>
+                                </div>
+                                <div className="col-lg-3 text-center">
+                                    <div className="lg-team-data">
+                                        <img src={Team4} className="team-img img-fluid" alt="teams"/>
+                                        <div className="team-data pt-3">
+                                            <h5>Deep Pandita</h5>
+                                            <small>CEO USA. Head Tech</small><br/>
+                                            <small>Houston</small>
+                                        </div>
+                                    </div>
+                                    <div className="sm-team-data pt-4 d-none">
+                                        <p class="text-center">Co-Head, Energy Business0, Stark Investments. Director Electricity Research, Citadel. </p>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>

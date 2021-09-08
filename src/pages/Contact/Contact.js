@@ -53,7 +53,7 @@ function Contact(props) {
            <section className="banner-contact">
             <div className="container-fluid">
                 <div className="row">
-                    <img src={ContactBanner} className="contact-banner-img img-fluid" alt="contact_banner"/>
+                    <img src={ContactBanner} className="banner-img img-fluid" alt="contact_banner"/>
                 </div>
             </div>
             </section>
@@ -65,12 +65,16 @@ function Contact(props) {
                 <h2 className="text-uppercase lined">Contact Us</h2>
             </header>
             <div className="row justify-content-center">
-                <div className="col-lg-7">
+                <div className="col-lg-11">
                     <form onSubmit="" className="contact-form" id="validateform">
-                        <div className="row">
+                        <div className="row justify-content-center">
                             <div className="form-group col-lg-12">
-                                <label htmlFor="name">Name *</label>
+                                <label htmlFor="name">First Name *</label>
                                 <input id="name" type="text" name="name" placeholder="Enter your firstname" className="form-control" required/>
+                            </div>
+                            <div className="form-group col-lg-12">
+                                <label htmlFor="name">Last Name *</label>
+                                <input id="name" type="text" name="name" placeholder="Enter your Lastname" className="form-control" required/>
                             </div>
                             <div className="form-group col-lg-6">
                                 <label htmlFor="mobile">phone *</label>
@@ -85,20 +89,11 @@ function Contact(props) {
                                 <textarea id="message" name="message" placeholder="Enter your message" rows="4" className="form-control"></textarea>
                             </div>
                             <div className="form-group col-lg-12">
-                                <button type="submit" className="my-btn center">Send Message</button>
+                                <button type="submit" className="btn btn-primary btn-sm">Send Message</button>
                             </div>
                         </div>
                         {/* {thankuMessage ? <span className="text-success text-center my-2">"Thank you for making Appointment!"</span> : null} */}
                     </form>
-                </div>
-                <div className="col-lg-3">
-                <div className="contact=info pt-4">
-                    <div className="icon mb-3"><i className="fa fa-phone"></i> Get in Touch</div>
-                    <p>+91 8779395644</p>
-                    <p>+91 7718860303</p>
-                    <div className="icon mb-3"><i className="fa fa-envelope"></i> Mail Us At</div>
-                    <p>enquiry@kidovillage.com</p>
-                </div>
                 </div>
             </div>
         </div>

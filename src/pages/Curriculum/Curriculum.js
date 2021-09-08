@@ -1,0 +1,127 @@
+import React, {useState ,useEffect} from 'react';
+import CurriculumBanner from '../../assets/curiculam-banner.jpg';
+import ApprochVideo from '../../assets/curriculum-approch.mp4';
+import CurriculumFeature1 from '../../assets/curriculum-feature1.png';
+import CurriculumFeature2 from '../../assets/curriculum-feature2.png';
+import CurriculumFeature3 from '../../assets/curriculum-feature3.png';
+import CurriculumFeature4 from '../../assets/curriculum-feature4.png';
+import CurriculumFeature5 from '../../assets/curriculum-feature5.png';
+import CurriculumFeature6 from '../../assets/curriculum-feature6.png';
+
+
+
+
+function Curriculum(props){
+
+    return(
+      <>
+
+        <section className="banner-curriculum">
+            <div className="container-fluid">
+                <div className="row">
+                    <img src={CurriculumBanner} className="banner-img img-fluid" alt="curriculum_banner"/>
+                </div>
+            </div>
+        </section>
+
+        <section className="pedagogy-text py-5">
+            <div className="container">
+                <div className="row justify-content-center">
+                    <div className="col-lg-11">
+                        <h1 className="future-text font-weight-bolder">Pedagogy for the future</h1>
+                        <h3>Exceeding international standards</h3>
+                        <p>The future will belong to children who are creative, adaptive, curious and have an ongoing habit of learning. The Kïdo Early Years Program is created with the objective of nurturing and enhancing these innate abilities in children from a very young age. Drawn from years of research, and supported by internationally renowned experts, we have created a free and structured play based program that enables children to exceed standards of any school system in the world by the time they enter primary school.</p>
+                        <div className="offering-link text-center py-4">
+                            <a href="#" className="my-btn center">Curriculum brochure</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section className="approach py-5">
+            <div className="container">
+                <div className="row justify-content-center">
+                    <div className="col-lg-5">
+                        <h1 className="approach-text font-weight-bolder">The approach</h1>
+                        <p>Our program incorporates best practices from classical Western pedagogies (Montessori, Reggio Emilia and others), Eastern approaches, and latest research like Multiple Intelligences.</p>
+                        <p>Project based learning, problem based learning and thinking based learning form the core of the teaching plans, and enable children to advance quickly across the spectrum of developmental goals. </p>
+                    </div>
+                    <div className="offset-lg-1 col-lg-5">
+                    <video width="450" id="vid" controls autoPlay loop muted>
+                        <source src={ApprochVideo} type="video/mp4"/>
+                        Your browser does not support HTML video.
+                    </video> 
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section className="features py-5">
+            <div className="container">
+                <div className="row justify-content-center">
+                    <div className="col-lg-11">
+                        <h1 className="features-text font-weight-bolder">Key features</h1>
+                        <p>The Kïdo Early Years Program is a comprehensive curriculum covering twelve areas of development, with our proprietary physical development, math, literacy, art and STEM programs. We have also developed fully bilingual English / Mandarin and English / Spanish programs. Additional languages include Arabic and French. </p>
+                        <div class="card-deck pt-5">
+                            <div className="row">
+                                <div class="card shadow">
+                                    <img src={CurriculumFeature1} class="card-img-top p-3" alt="..."/>
+                                    <div class="card-body">
+                                    <h3 class="card-title">Lesson Plans</h3>
+                                    <p class="card-text">Detailed lesson plans for every day of the school year, with video based resource and delivery training. Delivered electronically</p>
+                                    </div>
+                                </div>
+                                <div class="card shadow">
+                                    <img src={CurriculumFeature2} class="card-img-top p-3" alt="..."/>
+                                    <div class="card-body">
+                                    <h3 class="card-title">Levelled Books</h3>
+                                    <p class="card-text">For literacy and math with observation and assessment frameworks. Can be done at home or in class</p>
+                                    </div>
+                                </div>
+                                <div class="card shadow">
+                                    <img src={CurriculumFeature3} class="card-img-top p-3" alt="..."/>
+                                    <div class="card-body">
+                                    <h3 class="card-title">Resources</h3>
+                                    <p class="card-text">Proprietary resources for the classroom, including flash cards, work sheets, posters, circle time resources and much more</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="row pt-4">
+                                <div class="card shadow">
+                                    <img src={CurriculumFeature4} class="card-img-top p-3" alt="..."/>
+                                    <div class="card-body">
+                                    <h3 class="card-title">Languages</h3>
+                                    <p class="card-text">Full curricula for Mandarin and Spanish at native level, synching with the English program for complete bilingual offerings</p>
+                                    </div>
+                                </div>
+                                <div class="card shadow">
+                                    <img src={CurriculumFeature5} class="card-img-top p-3" alt="..."/>
+                                    <div class="card-body">
+                                    <h3 class="card-title">Toys and Games</h3>
+                                    <p class="card-text">Complete guide with instructions on toys and games to use, synched with lesson plans, classroom set up and stations</p>
+                                    </div>
+                                </div>
+                                <div class="card shadow">
+                                    <img src={CurriculumFeature6} class="card-img-top p-3" alt="..."/>
+                                    <div class="card-body">
+                                    <h3 class="card-title">Learning Journals</h3>
+                                    <p class="card-text">Pre designed learning journals to complete and present to parents at the end of every six week cycle, matching the curriculum</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+     
+      </>
+
+    );
+
+}
+
+export default Curriculum;
+
+

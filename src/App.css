@@ -21,6 +21,7 @@ h4, .h4 {font-size: 1.1em;}
 h5, h6, .h5, .h6{font-size: 1em; }
 
 p,li {color: #444; font-size: 1em;}
+/* span{color: #444; font-size: 1em;} */
 a {color: #444; text-decoration: none;  transition: 0.3s; cursor: pointer;}
 
 #myBtn {
@@ -52,10 +53,55 @@ a {color: #444; text-decoration: none;  transition: 0.3s; cursor: pointer;}
 .bg-red{
   background-color: #fbefef;
 }
+
+.btn-primary{
+  background-color: #00346b;
+  border-color: #00346b;
+  border-radius: 25px;
+  padding: 12px 50px;
+  line-height: 128%;
+  margin-bottom: 20px;
+}
 /*--------section header start---------*/
 
 .nav-link{color: #fff!important; font-size: 0.8em; font-family: 'Montserrat', sans-serif; font-weight: 600;}
 .bg-color{background: #00346b!important; }
+
+/* .dropdown-item{color: #00356b!important; font-size: 0.8em; font-family: 'Montserrat', sans-serif; font-weight: 600;}
+
+.dropdown-item.active, .dropdown-item:active {
+  color: #fff!important;
+  text-decoration: none;
+  background-color: #00356b
+}
+
+
+@media all and (min-width: 992px) {
+	.navbar .nav-item .dropdown-menu{ display: none; }
+	.navbar .nav-item:hover .nav-link{ color: #fff;  }
+	.navbar .nav-item:hover .dropdown-menu{ display: block; }
+	.navbar .nav-item .dropdown-menu{ margin-top:0; }
+} */
+
+/* .dropdown-item{color: #00356b!important; color: #fff; font-size: 0.8em; font-family: 'Montserrat', sans-serif; font-weight: 600;}
+
+.dropdown-menu{ background-color: #00346b; }
+.dropdown-menu :hover{ background-color: #00346b; }
+
+
+@media all and (min-width: 992px) {
+	.navbar .nav-item .dropdown-menu{ display: none; }
+	.navbar .nav-item:hover .nav-link{ color: #fff; }
+	.navbar .nav-item:hover .dropdown-menu{ display: block; }
+	.navbar .nav-item .dropdown-menu{ margin-top:0; }
+  .dropdown-item:focus, .dropdown-item:hover {
+    color: #fff !important;
+    text-decoration: none;
+    background-color: #00356b !important;
+}
+.dropdown-item{color: #fff !important;}
+}	 */
+
 
 @media screen and (max-width: 480px) {
     .home_nav{padding-left: 8px;}
@@ -126,6 +172,20 @@ a.my-btn:hover {
   padding-top: 150px;
 }
 
+.team-img{
+  border-radius: 50%;
+  width: 50%;
+  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
+}
+
+/* .sm-team-data {
+  display: none;
+}
+    
+.lg-team-data:hover + .sm-team-data {
+  display: block;
+} */
 
 /*--------footer-area start---------*/
 .footer-area{
@@ -182,3 +242,14 @@ a.fap-text{
   padding-left: 25px;
 }
 /*--------footer-area end---------*/
+
+
+@media screen and (max-width: 480px) {
+
+  h1, .h1 {font-size: 1.6em;}
+
+  iframe{
+    width: 100%;
+    height: auto;
+  }
+}

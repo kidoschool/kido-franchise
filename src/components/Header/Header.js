@@ -6,19 +6,6 @@ import $ from "jquery";
 
 function Header(props){
 
-  $(document).ready(function () { 
-    $("ul.navbar-nav > li > a").click( 
-      function (e) { 
-        $("ul.navbar-nav > li").removeClass( 
-          "active"); 
-        $("ul.navbar-nav > li > a").css( 
-          "borderBottom", ""); 
-
-        $(this).addClass("active"); 
-        $(this).css('borderBottom', '3px solid white'); 
-    }); 
-}); 
-
     return(
       <>
        <header>
@@ -37,8 +24,19 @@ function Header(props){
               <li className="nav-item pl-4">
                 <NavLink className="nav-link" to="/about-us">About</NavLink>
               </li>
+              {/* <li className="nav-item dropdown">
+                <NavLink className="nav-link pl-4 dropdown-toggle" to="/opportunity" id="navbarDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Opportunity
+                </NavLink>
+                <div className="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <NavLink className="dropdown-item" to="/usa">usa</NavLink>
+                </div>
+              </li> */}
               <li className="nav-item pl-4">
                 <NavLink className="nav-link" to="/opportunity">Opportunity</NavLink>
+              </li>
+              <li className="nav-item pl-4">
+                <NavLink className="nav-link" to="/usa">Usa</NavLink>
               </li>
               <li className="nav-item pl-4">
                 <NavLink className="nav-link" to="/curriculum">Curriculum</NavLink>
