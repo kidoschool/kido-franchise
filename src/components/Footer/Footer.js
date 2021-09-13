@@ -26,7 +26,7 @@ function Footer(props) {
                                 </div>
                             </div>
                         </div>
-                    <div className="col-lg-3 col-md-3 my-1">
+                    <div className="col-lg-3 col-md-6 my-1">
                             <div className="footer-widget footer-info">
                                 <h4 className="widget-title pb-3 quick-links">QUICK LINKS</h4>
                                 <ul className="list-unstyled row justify-content-center">
@@ -43,7 +43,7 @@ function Footer(props) {
                                 </ul>
                             </div>
                         </div>
-                        <div className="col-lg-2 col-md-3 my-1">
+                        <div className="col-lg-2 col-md-6 my-1">
                             <div className="footer-widget footer-info">
                                 <h4 className="widget-title pb-3">CONTACT</h4>
                             </div>

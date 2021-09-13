@@ -7,10 +7,60 @@ import usaFeature4 from '../../assets/usa-feature4.jpg';
 import usaFeature5 from '../../assets/usa-feature5.jpg';
 import usaFeature6 from '../../assets/usa-feature6.jpg';
 
+import UsaGallery1 from '../../assets/usa-gallery1.jpg';
+import UsaGallery2 from '../../assets/usa-gallery2.jpg';
+import UsaGallery3 from '../../assets/usa-gallery3.jpg';
+import UsaGallery4 from '../../assets/usa-gallery4.jpg';
+import UsaGallery5 from '../../assets/usa-gallery5.jpg';
+import UsaGallery6 from '../../assets/usa-gallery6.jpg';
 
+
+import ImageGallery from 'react-image-gallery';
+import "react-image-gallery/styles/css/image-gallery.css";
 
 
 function Usa(props){
+
+    
+    const images = [
+        {
+            original: UsaGallery1,
+            thumbnail: UsaGallery1,
+            originalTitle : "Kïdo River Place",
+            thumbnailLabel : "Kïdo River Place",
+        },
+        {
+            original: UsaGallery2,
+            thumbnail: UsaGallery2,
+            originalTitle : "Kïdo Rice Village",
+            thumbnailLabel : "Kïdo Rice Village",
+        },
+        {
+            original: UsaGallery3,
+            thumbnail: UsaGallery3,
+            originalTitle : "Kïdo River Place",
+            thumbnailLabel : "Kïdo River Place",
+        },
+        {
+            original: UsaGallery4,
+            thumbnail: UsaGallery4,
+            originalTitle : "Outdoor Play Area",
+            thumbnailLabel : "Outdoor Play Area",
+        },
+        {
+            original: UsaGallery5,
+            thumbnail: UsaGallery5,
+            originalTitle : "Baby Room",
+            thumbnailLabel : "Baby Room",
+        },
+        {
+            original: UsaGallery6,
+            thumbnail: UsaGallery6,
+            originalTitle : "Outdoor Play Area",
+            thumbnailLabel : "Outdoor Play Area",
+        },
+      ];
+      
 
     return(
       <>
@@ -89,6 +139,29 @@ function Usa(props){
                                 </div>
                             </div>
                         </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section className="usa-gallery py-5">
+            <div className="container">
+                <div className="row justify-content-center">
+                    <div className="col-lg-11">
+                    {/* <img src={UsaGallery} className="img-fluid" alt="school_network"/> */}
+                    <ImageGallery items={images} showThumbnails={false} onPlay={true}/>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section className="financing py-5">
+            <div className="container">
+                <div className="row justify-content-center">
+                    <div className="col-lg-11">
+                        <h1 className="financing-text font-weight-bolder">Financing</h1>
+                        <p>We are registered with the SBA, so you can finance your preschool. Depending on the real estate type (new construction, renovation), project type (greenfield, brownfield, acquisition), the capital required could be between USD 500,000 to USD 3 million +. It really depends on the project and what you have in mind (of course, we're here to help and guide you). </p>
+                        <p>The flexibility of our model means that you could do a new build on clean land, or acquire an already existing school and convert it to a Kïdo (and everything in between). It opens up several opportunities, specially in areas where population density is high and locating real estate may be a problem.</p>
                     </div>
                 </div>
             </div>

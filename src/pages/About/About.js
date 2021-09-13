@@ -115,7 +115,7 @@ function About(props){
                         <h1 className="Partner-text font-weight-bolder">Brands</h1>
                         <p>Both our brands share the same philosophy, run on the Kïdo Early Years Platform, and provide parents and children with the same level of service in every city that we are in.</p>
                     </div>
-                    <div className="col-lg-4">
+                    <div className="col-lg-4 pt-4">
                         <div className="brand-data p-4 border shadow text-center">
                             <img src={KidoLogo} className="img-fluid"/>
                             <p className="barnd-para pt-4">Our main brand. In the USA, UK. Hong Kong and Dubai. Launching soon in China and India</p>
@@ -124,7 +124,7 @@ function About(props){
                             </div>
                         </div>
                     </div>
-                    <div className="col-lg-4">
+                    <div className="col-lg-4 pt-4">
                         <div className="brand-data p-4 border shadow text-center">
                             <img src={SafariLogo} className="img-fluid"/>
                             <p className="barnd-para pt-4">Our main brand. In the USA, UK. Hong Kong and Dubai. Launching soon in China and India</p>

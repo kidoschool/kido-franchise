@@ -48,7 +48,7 @@ function Curriculum(props){
                         <p>Project based learning, problem based learning and thinking based learning form the core of the teaching plans, and enable children to advance quickly across the spectrum of developmental goals. </p>
                     </div>
                     <div className="offset-lg-1 col-lg-5">
-                    <video width="450" id="vid" controls autoPlay loop muted>
+                    <video width="450" id="vid" className="curriculam-video" controls autoPlay loop muted>
                         <source src={ApprochVideo} type="video/mp4"/>
                         Your browser does not support HTML video.
                     </video> 

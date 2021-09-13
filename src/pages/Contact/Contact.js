@@ -9,10 +9,14 @@ function Contact(props) {
   
         $("#validateform").validate({
                   rules:{
-                      name:{
+                      fname:{
                           required:true,
                           minlength: 2
                       },
+                      lname:{
+                        required:true,
+                        minlength: 2
+                    },
                       email: {
                           required: true,
                           email: true
@@ -26,10 +30,14 @@ function Contact(props) {
                   },
       
                   messages:{
-                    name: {
+                    fname: {
                       required: "This field is required",
                       minlength: "Please enter atleast two character"
                     },
+                    lname: {
+                        required: "This field is required",
+                        minlength: "Please enter atleast two character"
+                      },
                     email: {
                        required: "This field is required",
                        email: "Please enter a valid email id",
@@ -69,11 +77,11 @@ function Contact(props) {
                         <div className="row justify-content-center">
                             <div className="form-group col-lg-12">
                                 <label htmlFor="name">First Name *</label>
-                                <input id="name" type="text" name="name" placeholder="Enter your firstname" className="form-control" required/>
+                                <input id="fname" type="text" name="fname" placeholder="Enter your firstname" className="form-control" required/>
                             </div>
                             <div className="form-group col-lg-12">
                                 <label htmlFor="name">Last Name *</label>
-                                <input id="name" type="text" name="name" placeholder="Enter your Lastname" className="form-control" required/>
+                                <input id="lname" type="text" name="lname" placeholder="Enter your Lastname" className="form-control" required/>
                             </div>
                             <div className="form-group col-lg-6">
                                 <label htmlFor="mobile">phone *</label>
