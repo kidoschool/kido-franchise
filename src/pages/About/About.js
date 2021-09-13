@@ -250,52 +250,52 @@ function About(props){
                                     <div className="lg-team-data">
                                         <img src={Team5} className="team-img img-fluid" alt="teams"/>
                                         <div className="team-data pt-3">
-                                            <h5>Deep Pandita</h5>
-                                            <small>CEO USA. Head Tech</small><br/>
-                                            <small>Houston</small>
+                                            <h5>Jeetu Karsan</h5>
+                                            <small>CEO India</small><br/>
+                                            <small>Mumbai</small>
                                         </div>
                                     </div>
                                     <div className="sm-team-data pt-4 d-none">
-                                        <p className="text-center">Co-Head, Energy Business0, Stark Investments. Director Electricity Research, Citadel. </p>
+                                        <p className="text-center">Entrepreneur with 18y track record. Vice President and Head of Marketing, Inter Publicity (India). MBA, JBIMS,</p>
                                     </div>
                                 </div>
                                 <div className="col-lg-3 text-center">
                                     <div className="lg-team-data">
                                         <img src={Team6} className="team-img img-fluid" alt="teams"/>
                                         <div className="team-data pt-3">
-                                            <h5>Deep Pandita</h5>
-                                            <small>CEO USA. Head Tech</small><br/>
-                                            <small>Houston</small>
+                                            <h5>Emma Phillips</h5>
+                                            <small>Head Operations, UK</small><br/>
+                                            <small>London</small>
                                         </div>
                                     </div>
                                     <div className="sm-team-data pt-4 d-none">
-                                        <p className="text-center">Co-Head, Energy Business0, Stark Investments. Director Electricity Research, Citadel. </p>
+                                        <p className="text-center">15 years experience in the UK and internationally. Most recently Asquith and Bright Horizons, with Outstanding Ofsted Ratings</p>
                                     </div>
                                 </div>
                                 <div className="col-lg-3 text-center">
                                     <div className="lg-team-data">
                                         <img src={Team7} className="team-img img-fluid" alt="teams"/>
                                         <div className="team-data pt-3">
-                                            <h5>Deep Pandita</h5>
-                                            <small>CEO USA. Head Tech</small><br/>
-                                            <small>Houston</small>
+                                            <h5>Sheetal Agarwal</h5>
+                                            <small>Creative Director</small><br/>
+                                            <small>London</small>
                                         </div>
                                     </div>
                                     <div className="sm-team-data pt-4 d-none">
-                                        <p className="text-center">Co-Head, Energy Business0, Stark Investments. Director Electricity Research, Citadel. </p>
+                                        <p className="text-center">International Award winning Artist and Documentary Filmmaker. MFA, City University, Hong Kong.</p>
                                     </div>
                                 </div>
                                 <div className="col-lg-3 text-center">
                                     <div className="lg-team-data">
                                         <img src={Team8} className="team-img img-fluid" alt="teams"/>
                                         <div className="team-data pt-3">
-                                            <h5>Deep Pandita</h5>
-                                            <small>CEO USA. Head Tech</small><br/>
+                                            <h5>Kawan Gujral</h5>
+                                            <small>Business Dev, USA</small><br/>
                                             <small>Houston</small>
                                         </div>
                                     </div>
                                     <div className="sm-team-data pt-4 d-none">
-                                        <p className="text-center">Co-Head, Energy Business0, Stark Investments. Director Electricity Research, Citadel. </p>
+                                        <p className="text-center">10y+ experience in education management across three countries, in the Pre-K and K-12 space </p>
                                     </div>
                                 </div>
                             </div>
@@ -304,39 +304,39 @@ function About(props){
                                     <div className="lg-team-data">
                                         <img src={Team9} className="team-img img-fluid" alt="teams"/>
                                         <div className="team-data pt-3">
-                                            <h5>Deep Pandita</h5>
-                                            <small>CEO USA. Head Tech</small><br/>
-                                            <small>Houston</small>
+                                            <h5>Liam Hailstone</h5>
+                                            <small>Business Dev, Asia</small><br/>
+                                            <small>Hong Kong</small>
                                         </div>
                                     </div>
                                     <div className="sm-team-data pt-4 d-none">
-                                        <p className="text-center">Co-Head, Energy Business0, Stark Investments. Director Electricity Research, Citadel. </p>
+                                        <p className="text-center">Teacher, marketer, quality control analyst and environmental analyst </p>
                                     </div>
                                 </div>
                                 <div className="col-lg-3 text-center">
                                     <div className="lg-team-data">
                                         <img src={Team10} className="team-img img-fluid" alt="teams"/>
                                         <div className="team-data pt-3">
-                                            <h5>Deep Pandita</h5>
-                                            <small>CEO USA. Head Tech</small><br/>
-                                            <small>Houston</small>
+                                            <h5>Fruzsina Benyei</h5>
+                                            <small>Curriculum & Training Asia</small><br/>
+                                            <small>Dubai</small>
                                         </div>
                                     </div>
                                     <div className="sm-team-data pt-4 d-none">
-                                        <p className="text-center">Co-Head, Energy Business0, Stark Investments. Director Electricity Research, Citadel. </p>
+                                        <p className="text-center">Over 10 years experience in the early years, including as teacher and principal. Masters in Education </p>
                                     </div>
                                 </div>
                                 <div className="col-lg-3 text-center">
                                     <div className="lg-team-data">
                                         <img src={Team11} className="team-img img-fluid" alt="teams"/>
                                         <div className="team-data pt-3">
-                                            <h5>Deep Pandita</h5>
-                                            <small>CEO USA. Head Tech</small><br/>
-                                            <small>Houston</small>
+                                            <h5>Shilpa Marla</h5>
+                                            <small>COO India</small><br/>
+                                            <small>Mumbai</small>
                                         </div>
                                     </div>
                                     <div className="sm-team-data pt-4 d-none">
-                                        <p className="text-center">Co-Head, Energy Business0, Stark Investments. Director Electricity Research, Citadel. </p>
+                                        <p className="text-center">Over 15y experience in HR across start ups and large organizations at different leadership levels. </p>
                                     </div>
                                 </div>
                             </div>
