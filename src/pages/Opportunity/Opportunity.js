@@ -36,30 +36,30 @@ function Opportunity(props){
                 <div className="row justify-content-center">
                     <div className="col-lg-11">
                         <h1 className="models-text font-weight-bolder">Partnership Models</h1>
-                        <p>We offer different partnership models depending on your profile and location. In markets where we have our hubs (USA, UK, UAE, India, Singapore and Hong Kong), partners can be Unit Franchisees (i.e. for a single centre) or Area Developers.</p>
-                        <p>For markets where we do not have hubs, we look for Area Developers at a city, province or country level. For large countries and with specific partners, we may look at Master Franchise arrangements.</p>
-                        <p>If you are interested in any of the models, please contact us through the website.</p>
-                        <div class="card-deck pt-5">
+                        <p>We offer different partnership models depending on your profile and location. In markets where we have our hubs <span>(USA, UK, UAE, India, Singapore and Hong Kong)</span>, partners can be <span>Unit Franchisees</span> (i.e. for a single centre) or <span>Area Developers</span>.</p>
+                        <p>For markets where we do not have hubs, we look for <span>Area Developers at a city, province or country level</span>. For large countries and with specific partners, we may look at Master Franchise arrangements.</p>
+                        <p>If you are interested in any of the models, <span>please contact us through the website</span>.</p>
+                        <div className="card-deck pt-5">
                             <div className="row">
-                                <div class="card shadow">
-                                    <img src={OpportunitModel1} class="card-img-top p-3" alt="..."/>
-                                    <div class="card-body">
-                                    <h3 class="card-title">Unit Franchisees</h3>
-                                    <p class="card-text">For single sites in any of our markets. </p>
+                                <div className="card shadow">
+                                    <img src={OpportunitModel1} className="card-img-top p-3" alt="opportunit"/>
+                                    <div className="card-body">
+                                    <h3 className="card-title">Unit Franchisees</h3>
+                                    <p className="card-text">For single sites in any of our markets. </p>
                                     </div>
                                 </div>
-                                <div class="card shadow">
-                                    <img src={OpportunitModel2} class="card-img-top p-3" alt="..."/>
-                                    <div class="card-body">
-                                    <h3 class="card-title">Area Developers</h3>
-                                    <p class="card-text">For the right to develop multiple sites in a city, province or country</p>
+                                <div className="card shadow">
+                                    <img src={OpportunitModel2} className="card-img-top p-3" alt="opportunit"/>
+                                    <div className="card-body">
+                                    <h3 className="card-title">Area Developers</h3>
+                                    <p className="card-text">For the right to develop multiple sites in a city, province or country</p>
                                     </div>
                                 </div>
-                                <div class="card shadow">
-                                    <img src={OpportunitModel3} class="card-img-top p-3" alt="..."/>
-                                    <div class="card-body">
-                                    <h3 class="card-title">Master Franchise</h3>
-                                    <p class="card-text">For the right to develop and sub-franchise in a country</p>
+                                <div className="card shadow">
+                                    <img src={OpportunitModel3} className="card-img-top p-3" alt="opportunit"/>
+                                    <div className="card-body">
+                                    <h3 className="card-title">Master Franchise</h3>
+                                    <p className="card-text">For the right to develop and sub-franchise in a country</p>
                                     </div>
                                 </div>
                             </div>

@@ -20,9 +20,9 @@ h3, .h3 {font-size: 1.15em;}
 h4, .h4 {font-size: 1.1em;}
 h5, h6, .h5, .h6{font-size: 1em; }
 
-p,li {color: #444; font-size: 1em;}
-/* span{color: #444; font-size: 1em;} */
-a {color: #444; text-decoration: none;  transition: 0.3s; cursor: pointer;}
+p,li {color: #666; font-size: 1em;}
+span{color: #666; font-weight: 600;}
+a {color: #666; text-decoration: none;  transition: 0.3s; cursor: pointer;}
 
 #myBtn {
     display: none;
@@ -179,13 +179,16 @@ a.my-btn:hover {
   filter: grayscale(100%);
 }
 
-/* .sm-team-data {
-  display: none;
+.image-gallery-left-nav .image-gallery-svg, .image-gallery-right-nav .image-gallery-svg {
+  height: 120px;
+  width: 20px;
 }
-    
-.lg-team-data:hover + .sm-team-data {
-  display: block;
-} */
+
+.image-gallery-fullscreen-button .image-gallery-svg, .image-gallery-play-button .image-gallery-svg {
+  height: 28px;
+  width: 20px;
+}
+
 
 /*--------footer-area start---------*/
 .footer-area{

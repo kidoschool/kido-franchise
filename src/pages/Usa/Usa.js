@@ -1,4 +1,4 @@
-import React, {useState ,useEffect} from 'react';
+import React from 'react';
 import UsaBanner from '../../assets/usa-banner.jpg';
 import usaFeature1 from '../../assets/usa-feature1.jpg';
 import usaFeature2 from '../../assets/usa-feature2.jpg';
@@ -23,7 +23,7 @@ function Usa(props){
             </div>
         </section>
 
-        <section className="offering py-5">
+        <section className="offering pt-5">
             <div className="container">
                 <div className="row justify-content-center">
                     <div className="col-lg-11">
@@ -41,50 +41,50 @@ function Usa(props){
             <div className="container">
                 <div className="row justify-content-center">
                     <div className="col-lg-11">
-                        <div class="card-deck pt-5">
+                        <div className="card-deck pt-5">
                             <div className="row">
-                                <div class="card shadow">
-                                    <img src={usaFeature1} class="card-img-top p-3" alt="..."/>
-                                    <div class="card-body">
-                                    <h3 class="card-title">Bilingual Program</h3>
-                                    <p class="card-text">Detailed lesson plans for every day of the school year, with video based resource and delivery training. Delivered electronically</p>
+                                <div className="card shadow">
+                                    <img src={usaFeature1} className="card-img-top p-3" alt="featureimg"/>
+                                    <div className="card-body">
+                                    <h3 className="card-title">Bilingual Program</h3>
+                                    <p className="card-text">Detailed lesson plans for every day of the school year, with video based resource and delivery training. Delivered electronically</p>
                                     </div>
                                 </div>
-                                <div class="card shadow">
-                                    <img src={usaFeature2} class="card-img-top p-3" alt="..."/>
-                                    <div class="card-body">
-                                    <h3 class="card-title">Real Estate</h3>
-                                    <p class="card-text">Proprietary resources for the classroom, including flash cards, work sheets, posters, circle time resources and much more</p>
+                                <div className="card shadow">
+                                    <img src={usaFeature2} className="card-img-top p-3" alt="featureimg"/>
+                                    <div className="card-body">
+                                    <h3 className="card-title">Real Estate</h3>
+                                    <p className="card-text">Proprietary resources for the classroom, including flash cards, work sheets, posters, circle time resources and much more</p>
                                     </div>
                                 </div>
-                                <div class="card shadow">
-                                    <img src={usaFeature3} class="card-img-top p-3" alt="..."/>
-                                    <div class="card-body">
-                                    <h3 class="card-title">Languages</h3>
-                                    <p class="card-text">Full curricula for Mandarin and Spanish at native level, synching with the English program for complete bilingual offerings</p>
+                                <div className="card shadow">
+                                    <img src={usaFeature3} className="card-img-top p-3" alt="featureimg"/>
+                                    <div className="card-body">
+                                    <h3 className="card-title">Languages</h3>
+                                    <p className="card-text">Full curricula for Mandarin and Spanish at native level, synching with the English program for complete bilingual offerings</p>
                                     </div>
                                 </div>
                             </div>
                             <div className="row pt-4">
-                                <div class="card shadow">
-                                    <img src={usaFeature4} class="card-img-top p-3" alt="..."/>
-                                    <div class="card-body">
-                                    <h3 class="card-title">Toys and Games</h3>
-                                    <p class="card-text">Complete guide with instructions on toys and games to use, synched with lesson plans, classroom set up and stations</p>
+                                <div className="card shadow">
+                                    <img src={usaFeature4} className="card-img-top p-3" alt="featureimg"/>
+                                    <div className="card-body">
+                                    <h3 className="card-title">Toys and Games</h3>
+                                    <p className="card-text">Complete guide with instructions on toys and games to use, synched with lesson plans, classroom set up and stations</p>
                                     </div>
                                 </div>
-                                <div class="card shadow">
-                                    <img src={usaFeature5} class="card-img-top p-3" alt="..."/>
-                                    <div class="card-body">
-                                    <h3 class="card-title">Learning Journals</h3>
-                                    <p class="card-text">Pre designed learning journals to complete and present to parents at the end of every six week cycle, matching the usa</p>
+                                <div className="card shadow">
+                                    <img src={usaFeature5} className="card-img-top p-3" alt="featureimg"/>
+                                    <div className="card-body">
+                                    <h3 className="card-title">Learning Journals</h3>
+                                    <p className="card-text">Pre designed learning journals to complete and present to parents at the end of every six week cycle, matching the usa</p>
                                     </div>
                                 </div>
-                                <div class="card shadow">
-                                    <img src={usaFeature6} class="card-img-top p-3" alt="..."/>
-                                    <div class="card-body">
-                                    <h3 class="card-title">Learning Journals</h3>
-                                    <p class="card-text">Pre designed learning journals to complete and present to parents at the end of every six week cycle, matching the usa</p>
+                                <div className="card shadow">
+                                    <img src={usaFeature6} className="card-img-top p-3" alt="featureimg"/>
+                                    <div className="card-body">
+                                    <h3 className="card-title">Learning Journals</h3>
+                                    <p className="card-text">Pre designed learning journals to complete and present to parents at the end of every six week cycle, matching the usa</p>
                                     </div>
                                 </div>
                             </div>
