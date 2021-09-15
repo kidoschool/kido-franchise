@@ -23,19 +23,14 @@ function Header(props){
               <li className="nav-item pl-4">
                 <NavLink className="nav-link" to="/about-us">About</NavLink>
               </li>
-              {/* <li className="nav-item dropdown">
-                <NavLink className="nav-link pl-4 dropdown-toggle" to="/opportunity" id="navbarDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              <li className="nav-item dropdown">
+                <a  href={null} className="nav-link pl-4 dropdown-toggle" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 Opportunity
-                </NavLink>
+                </a>
                 <div className="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <NavLink className="dropdown-item" to="/opportunity">Opportunity</NavLink>
                   <NavLink className="dropdown-item" to="/usa">usa</NavLink>
                 </div>
-              </li> */}
-              <li className="nav-item pl-4">
-                <NavLink className="nav-link" to="/opportunity">Opportunity</NavLink>
-              </li>
-              <li className="nav-item pl-4">
-                <NavLink className="nav-link" to="/usa">Usa</NavLink>
               </li>
               <li className="nav-item pl-4">
                 <NavLink className="nav-link" to="/curriculum">Curriculum</NavLink>

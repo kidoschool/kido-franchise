@@ -3,7 +3,7 @@ body{
     font-size: 16px;
     font-family: 'Montserrat', sans-serif;
     overflow-x: hidden;
-    padding-top: 60px;
+    padding-top: 80px;
     line-height: 1.5;
     background-color: #fff;
 }
@@ -83,7 +83,7 @@ a {color: #666; text-decoration: none;  transition: 0.3s; cursor: pointer;}
 	.navbar .nav-item .dropdown-menu{ margin-top:0; }
 } */
 
-/* .dropdown-item{color: #00356b!important; color: #fff; font-size: 0.8em; font-family: 'Montserrat', sans-serif; font-weight: 600;}
+.dropdown-item{color: #00356b!important; color: #fff; font-size: 0.8em; font-family: 'Montserrat', sans-serif; font-weight: 600;}
 
 .dropdown-menu{ background-color: #00346b; }
 .dropdown-menu :hover{ background-color: #00346b; }
@@ -100,7 +100,7 @@ a {color: #666; text-decoration: none;  transition: 0.3s; cursor: pointer;}
     background-color: #00356b !important;
 }
 .dropdown-item{color: #fff !important;}
-}	 */
+}	
 
 
 @media screen and (max-width: 480px) {
@@ -160,8 +160,8 @@ a.my-btn:hover {
 }
 
 .banner-img{
-  width: 100%;
-  height: 100vh;
+    width: 100%;
+    height: 90vh;
 }
 
 .founder-info-data{
