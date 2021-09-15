@@ -37,7 +37,7 @@ function Footer(props) {
                                   </div>
                                   <div className="col-lg-5">
                                     <li><Link className="" to="/about">About</Link></li>
-                                    <li><a className="" href="/usa">Usa</a></li>
+                                    <li><a className="" href="/usa">USA</a></li>
                                     <li><Link className="" to="/contact">Contact</Link></li>
                                   </div>
                                 </ul>
@@ -63,7 +63,7 @@ function Footer(props) {
                 <div className="container py-3">
                   <div className="d-flex justify-content-between">
                     <div className="terms"><Link to="/">Terms and conditions</Link></div>
-                    <div className="all-rights"><Link to="/">© 2021 Kïdo Education Pte. Ltd.<sup>TM</sup></Link></div>
+                    <div className="all-rights"><Link to="/">© 2021 Kïdo Education (Singapore) Pte. Ltd.<sup>TM</sup></Link></div>
                   </div>
                 </div>
         </section>

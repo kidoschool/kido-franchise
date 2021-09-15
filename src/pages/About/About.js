@@ -108,7 +108,7 @@ function About(props){
             </div>
         </section>
 
-        <section className="brand py-5">
+        {/* <section className="brand py-5">
             <div className="container">
                 <div className="row justify-content-center">
                     <div className="col-lg-3">
@@ -135,7 +135,7 @@ function About(props){
                     </div>
                 </div>
             </div>
-        </section>
+        </section> */}
 
         <section className="school-network py-5">
             <div className="container">

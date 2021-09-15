@@ -29,7 +29,7 @@ function Header(props){
                 </a>
                 <div className="dropdown-menu" aria-labelledby="navbarDropdown">
                   <NavLink className="dropdown-item" to="/opportunity">Opportunity</NavLink>
-                  <NavLink className="dropdown-item" to="/usa">usa</NavLink>
+                  <NavLink className="dropdown-item" to="/usa">USA</NavLink>
                 </div>
               </li>
               <li className="nav-item pl-4">
