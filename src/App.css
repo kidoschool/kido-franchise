@@ -244,6 +244,10 @@ a.fap-text{
 .quick-links{
   padding-left: 25px;
 }
+
+.navbar-toggler-icon {
+  color: #fff !important;
+}
 /*--------footer-area end---------*/
 
 

@@ -2,6 +2,7 @@ import React from 'react';
 import ContactBanner from '../../assets/contact-banner.jpg';
 import $ from "jquery";
 import validate from 'jquery-validation';
+import HubspotForm from 'react-hubspot-form';
 
 
 function Contact(props) {
@@ -73,7 +74,7 @@ function Contact(props) {
             </header>
             <div className="row justify-content-center">
                 <div className="col-lg-11">
-                    <form onSubmit="" className="contact-form" id="validateform">
+                    {/* <form onSubmit="" className="contact-form" id="validateform">
                         <div className="row justify-content-center">
                             <div className="form-group col-lg-12">
                                 <label htmlFor="name">First Name *</label>
@@ -99,8 +100,16 @@ function Contact(props) {
                                 <button type="submit" className="btn btn-primary btn-sm">Send Message</button>
                             </div>
                         </div>
-                        {/* {thankuMessage ? <span className="text-success text-center my-2">"Thank you for making Appointment!"</span> : null} */}
-                    </form>
+                        {thankuMessage ? <span className="text-success text-center my-2">"Thank you for making Appointment!"</span> : null}
+                    </form> */}
+
+                            <HubspotForm
+                                portalId='9397213'
+                                formId='b66dc461-68e4-4881-a859-c4027b55b1bb'
+                                onSubmit={() => console.log('Submit!')}
+                                onReady={()=>console.log('Submit!')}
+                                loading={<div>Loading...</div>}
+                            />
                 </div>
             </div>
         </div>
