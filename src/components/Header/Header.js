@@ -17,25 +17,25 @@ function Header(props){
           
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav mr-auto w-100 justify-content-end clearfix">
-              <li className="nav-item active pl-4">
+              <li className="nav-item active pl-5">
                 <NavLink className="nav-link" to="/">Home</NavLink>
               </li>
-              <li className="nav-item pl-4">
+              <li className="nav-item pl-5">
                 <NavLink className="nav-link" to="/about-us">About</NavLink>
               </li>
               <li className="nav-item dropdown">
-                <a  href={null} className="nav-link pl-4 dropdown-toggle" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <a  href={null} className="nav-link pl-5 dropdown-toggle" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 Opportunity
                 </a>
-                <div className="dropdown-menu" aria-labelledby="navbarDropdown">
+                <div className="dropdown-menu pl-4" aria-labelledby="navbarDropdown">
                   <NavLink className="dropdown-item" to="/opportunity">Opportunity</NavLink>
                   <NavLink className="dropdown-item" to="/usa">USA</NavLink>
                 </div>
               </li>
-              <li className="nav-item pl-4">
+              <li className="nav-item pl-5">
                 <NavLink className="nav-link" to="/curriculum">Curriculum</NavLink>
               </li>
-              <li className="nav-item pl-4">
+              <li className="nav-item pl-5">
                 <NavLink className="nav-link" to="/contact">Contact</NavLink>
               </li>
             </ul>
