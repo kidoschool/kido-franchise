@@ -16,7 +16,7 @@ function App() {
   
   return (
   <>
-       <Router>
+       <Router basename={'/kido-franchise'}>
        <ScrollToTop>
         <Header />
         <Switch>
