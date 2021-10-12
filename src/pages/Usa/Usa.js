@@ -87,7 +87,7 @@ function Usa(props){
         </section>
 
 
-        <section className="features py-5">
+        <section className="features py-4">
             <div className="container">
                 <div className="row justify-content-center">
                     <div className="col-lg-11">
