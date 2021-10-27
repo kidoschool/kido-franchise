@@ -28,6 +28,8 @@ import ImageGallery from 'react-image-gallery';
 import "react-image-gallery/styles/css/image-gallery.css";
 import { Link } from 'react-router-dom';
 import centerContents1 from '../../MapCenters.json';
+import { isMobile } from "react-device-detect";
+
 
 
 
@@ -68,8 +70,10 @@ function About(props){
         },
       ];
       
-    const [ map_zoom, setMap_zoom ] = useState("");
-    const [ map_centre, setMap_centre ] = useState({lat: 19,lng: 10});
+      const [ map_centre ] = useState({lat: 19,lng: 10});
+      let map_zoom = 0;
+  
+      isMobile ? map_zoom = 1 : map_zoom = 2
 
     // $(document).ready(function(){
     //     $(".lg-team-data").hover(function(){
@@ -156,7 +160,7 @@ function About(props){
             <div className="container">
                 <div className="row justify-content-center">
                     <div className="col-lg-12 text-center">
-                    <Map3 centerContents1={centerContents1} map_centre={map_centre} map_zoom={2}   />
+                    <Map3 centerContents1={centerContents1} map_centre={map_centre} map_zoom={map_zoom} />
                     </div>
                 </div>
             </div>  

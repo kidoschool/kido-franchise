@@ -1,4 +1,4 @@
- {"centers" : [
+{"centers" : [
     {
         "id": 7106,
         "name": "Safari Kid Chembur Preschool and Day care",
@@ -175,6 +175,16 @@
         "lat": 51.48828,
         "city": 5848
     
+    },
+    {
+        "id": 6356,
+        "name": "Kïdo Repulse Bay Nursery & Child Care",
+        "intro": "<h1 class=\"font-h6\">Address</h1><address>Shop G106A - 107A, The Repulse Bay, 109 Repulse Bay Road, Hong Kong</address><h1 class=\"font-h6\">Contact</h1><p><a href=\"mailto:repulsebay@kido.school\">repulsebay@kido.school</a><br><a href=\"tel:+852 2874 3007\">+852 2874 3007</a><br></p>",
+        "img": "https://china.kido.school/assets/images/Repulse-Bay-1400-by-700_01.jpg",
+        "lng": 114.196269,
+        "lat": 22.239194,
+        "city": 6324
+        
     },
     {
         "id": 6327,
