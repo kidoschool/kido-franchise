@@ -189,6 +189,19 @@ a.my-btn:hover {
   width: 20px;
 }
 
+.sm-team-data{
+  position: absolute;
+  vertical-align: top;
+  top: 0%;
+  height: 100%;
+  background-color: #fff;
+  opacity: 0;
+}
+
+.sm-team-data:hover{
+ opacity: 1;
+ transition: opacity 0.8s;
+} 
 
 /*--------footer-area start---------*/
 .footer-area{
