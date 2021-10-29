@@ -28,8 +28,8 @@ function Curriculum(props){
             <div className="container">
                 <div className="row justify-content-center">
                     <div className="col-lg-11">
-                        <h1 className="future-text font-weight-bolder">Pedagogy for the future</h1>
-                        <h3>Exceeding international standards</h3>
+                        <h1 className="future-text font-weight-bolder mb-4">Pedagogy for the future</h1>
+                        <h3 className="exceeding-text mb-4">Exceeding international standards</h3>
                         <p>The future will belong to children who are creative, adaptive, curious and have an ongoing habit of learning. The Kïdo Early Years Program is created with the objective of nurturing and enhancing these innate abilities in children from a very young age. Drawn from years of research, and supported by internationally renowned experts, we have created a free and structured play based program that enables children to exceed standards of any school system in the world by the time they enter primary school.</p>
                         <div className="offering-link text-center py-4">
                             <a href="https://64a46671-a752-4ee4-9521-3a4736fb44a1.filesusr.com/ugd/a1d20b_d20a2524574448f98418490f0f8adc77.pdf" target="_blank" rel="noreferrer" className="my-btn center">Curriculum brochure</a>
@@ -39,11 +39,11 @@ function Curriculum(props){
             </div>
         </section>
 
-        <section className="approach py-5">
+        <section className="approach bg-light py-5">
             <div className="container">
                 <div className="row justify-content-center">
                     <div className="col-lg-5">
-                        <h1 className="approach-text font-weight-bolder">The approach</h1>
+                        <h1 className="approach-text font-weight-bolder mb-4">The approach</h1>
                         <p>Our program incorporates best practices from classical Western pedagogies (Montessori, Reggio Emilia and others), Eastern approaches, and latest research like Multiple Intelligences.</p>
                         <p>Project based learning, problem based learning and thinking based learning form the core of the teaching plans, and enable children to advance quickly across the spectrum of developmental goals. </p>
                     </div>
@@ -61,7 +61,7 @@ function Curriculum(props){
             <div className="container">
                 <div className="row justify-content-center">
                     <div className="col-lg-11">
-                        <h1 className="features-text font-weight-bolder">Key features</h1>
+                        <h1 className="features-text font-weight-bolder mb-4">Key features</h1>
                         <p>The Kïdo Early Years Program is a comprehensive curriculum covering twelve areas of development, with our proprietary physical development, math, literacy, art and STEM programs. We have also developed fully bilingual English / Mandarin and English / Spanish programs. Additional languages include Arabic and French. </p>
                         <div className="card-deck pt-5">
                             <div className="row">

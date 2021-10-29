@@ -33,8 +33,8 @@ function Home(props) {
                     <div className="row justify-content-center">
                         <div className="col-lg-11">
                             <div className="Partner-text-area">
-                                <h1 className="Partner-text font-weight-bolder">Become a Kïdo Partner</h1>
-                                <h3>Early years, reimagined</h3>
+                                <h1 className="Partner-text font-weight-bolder mb-4">Become a Kïdo Partner</h1>
+                                <h3 className="early-text mb-4">Early years, reimagined</h3>
                                 <p>We are creating a <span>global platform</span> dedicated to delivering the highest quality early years education <span>anywhere in the world</span>. We are integrating advances in pedagogy, technology and design to create <span>unique learning experiences for children.</span></p>
                                 <p>Partner with us as a <span>master franchisee, area developer, or unit franchisee</span> anywhere in the world and discover the power of the <span>most comprehensive early years preschool franchise system created</span> anywhere. Our franchise model rests on our ability and commitment to make our franchisees successful.</p>
                             </div>
@@ -54,7 +54,7 @@ function Home(props) {
                     <div className="row justify-content-center">
                         <div className="col-lg-11">
                             <div className="Partner-text-area">
-                                <h1 className="Partner-text font-weight-bolder">Our Franchise Platform</h1>
+                                <h1 className="Partner-text font-weight-bolder mb-4">Our Franchise Platform</h1>
                                 <p>The Kïdo Early Years Platform is a set of comprehensive online and offline products and services delivering curriculum, quality assurance, training, school design, marketing, branding, and our own school management, teacher and parent communication apps. A truly 21st century franchise platform that ensures best in className child development, parent satisfaction and franchisee success outcomes.</p>
                                 <p>Our program, amongst other things, offers a fully bilingual English-Spanish curriculum (currently for the USA), a fully bilingual English-Mandarin curriculum (for Hong Kong and China), and Arabic and French as additional languages.</p>
                             </div>
@@ -70,22 +70,22 @@ function Home(props) {
                                     <div className="col-lg-3">
                                          <div className="list-data text-center">
                                             <i className="far fa-thumbs-up fav-icons"></i>
-                                            <h3>Operations</h3>
-                                            <small>Online operations manuals, regulatory compliance and full school management system</small>
+                                            <h3>Quality Assurance</h3>
+                                            <small>Complete online quality assurance app, for every aspect of operations of a school</small>
                                         </div>
                                     </div>
                                     <div className="col-lg-3">
                                      <div className="list-data text-center">
                                             <i className="fas fa-chalkboard-teacher fav-icons"></i>
-                                            <h3>Operations</h3>
-                                            <small>Online operations manuals, regulatory compliance and full school management system</small>
+                                            <h3>Training</h3>
+                                            <small>Online and offline ongoing training, for the whole staff, including teachers and key personnel</small>
                                         </div>
                                     </div>
                                     <div className="col-lg-3">
                                      <div className="list-data text-center">
                                             <i className="fas fa-mobile-alt fav-icons"></i>
-                                            <h3>Operations</h3>
-                                            <small>Online operations manuals, regulatory compliance and full school management system</small>
+                                            <h3>App Suite</h3>
+                                            <small>The Kïdo app suite covers everything from taking enquiries to parent communications.</small>
                                         </div>
                                     </div>
                                     </div>
@@ -93,29 +93,29 @@ function Home(props) {
                                     <div className="col-lg-3">
                                      <div className="list-data text-center">
                                             <i className="fas fa-home fav-icons"></i>
-                                            <h3>Operations</h3>
-                                            <small>Online operations manuals, regulatory compliance and full school management system</small>
+                                            <h3>School design</h3>
+                                            <small>Our team assists on school design, procurement, classroom layout and interiors</small>
                                         </div>
                                     </div>
                                     <div className="col-lg-3">
                                      <div className="list-data text-center">
                                             <i className="fas fa-chart-line fav-icons"></i>
-                                            <h3>Operations</h3>
-                                            <small>Online operations manuals, regulatory compliance and full school management system</small>
+                                            <h3>Marketing</h3>
+                                            <small>Over 5000 templates for marketing, and full benefits of our local and international branding</small>
                                         </div>
                                     </div>
                                     <div className="col-lg-3">
                                      <div className="list-data text-center">
                                             <i className="fas fa-user-friends fav-icons"></i>
-                                            <h3>Operations</h3>
-                                            <small>Online operations manuals, regulatory compliance and full school management system</small>
+                                            <h3>People Management</h3>
+                                            <small>Access to our HR systems for recruitment, onboarding, performance management and HR records</small>
                                         </div>
                                     </div>
                                     <div className="col-lg-3">
                                      <div className="list-data text-center">
                                             <i className="fas fa-cube fav-icons"></i>
-                                            <h3>Operations</h3>
-                                            <small>Online operations manuals, regulatory compliance and full school management system</small>
+                                            <h3>Curriculum</h3>
+                                            <small>Online delivery of curriculum, with full support with video guides, detailed lesson plans and training</small>
                                         </div>
                                     </div>
                                 </div>
@@ -128,7 +128,7 @@ function Home(props) {
                 </div>
             </section>
 
-            <section className="we-franchise my-5">
+            <section className="we-franchise bg-light py-5">
                 <div className="container">
                     <div className="row justify-content-center">
                         <div className="col-lg-11">
@@ -139,20 +139,13 @@ function Home(props) {
                             <div className="contact-link text-center py-4">
                                 <Link to="/contact" className="my-btn center">Contact us</Link>
                             </div>
+                            <div className="maps">
+                                <Map3 centerContents1={centerContents1} map_centre={map_centre} map_zoom={map_zoom}/>
+                            </div>
                         </div>
                     </div>
                 </div>
             </section>
-
-        <section className="con-map pb-5">
-            <div className="container">
-                <div className="row justify-content-center">
-                    <div className="col-lg-12 text-center">
-                    <Map3 centerContents1={centerContents1} map_centre={map_centre} map_zoom={map_zoom}/>
-                    </div>
-                </div>
-            </div>  
-        </section>
 
                    
         </>

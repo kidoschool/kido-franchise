@@ -85,7 +85,7 @@ function About(props){
             <div className="container">
                 <div className="row justify-content-center">
                     <div className="col-lg-11">
-                        <h1 className="Partner-text font-weight-bolder">By parents, for parents</h1>
+                        <h1 className="Partner-text font-weight-bolder mb-4">By parents, for parents</h1>
                         <p>We are founded and managed by a group of parents of young children around the world. Frustrated by the quality of preschools and nurseries in our cities, we came together to create an early education company that delivered for <span>parents, children and operators alike</span>, all over the world.</p>
                         <p>Under our two brands, <span>Kïdo and Safari Kid International</span>, we are creating magical and engaging learning spaces. Infused with cutting edge pedagogy and great teachers to nurture and enhance every child’s innate curiosity, creativity and ability to be a lifelong learner.</p>
                         <div className="offering-link text-center py-4">
@@ -96,7 +96,7 @@ function About(props){
             </div>
         </section>
 
-        <section className="school-network py-5">
+        <section className="school-network bg-light py-5">
             <div className="container">
                 <div className="row justify-content-center">
                     <div className="col-lg-4">
@@ -104,7 +104,7 @@ function About(props){
                     <ImageGallery items={images} showThumbnails={false} onPlay={true}/>
                     </div>
                     <div className="offset-lg-1 col-lg-5">
-                        <h1 className="network-text font-weight-bolder">Network</h1>
+                        <h1 className="network-text font-weight-bolder mb-4">Network</h1>
                         <p>We started with our first school in <span>Hong Kong in Jan 2014</span>. Since then we have opened schools in <span>Dubai, India, the UK and the USA</span>. Our franchise operations began in 2019 and <span>2020 has seen us launching</span> <span className="text-primary">Kïdo Home</span><span>, our online preschool offering</span>. Our network is rapidly growing across more cities and countries.</p>
                     </div>
                 </div>
@@ -143,11 +143,11 @@ function About(props){
         </section>
 
 
-        <section className="team py-5">
+        <section className="team bg-light py-5">
             <div className="container">
                 <div className="row justify-content-center">
                     <div className="col-lg-11">
-                        <h1 className="team-text font-weight-bolder">The Team</h1>
+                        <h1 className="team-text font-weight-bolder mb-4">The Team</h1>
                         <p>Our core team has multiple years experience across education, banking, finance, design, hospitality, marketing and much else. We also have several years experience in raising children in different cultures, cities and countries. We have over thirty professionals in six different hubs around the world, giving us in depth expertise, cross-cultural sensibility and an ability to service parents and clients across the world.</p>
                         <div className="team-listing pt-4">
                             <div className="row">

@@ -77,7 +77,7 @@ function Usa(props){
             <div className="container">
                 <div className="row justify-content-center">
                     <div className="col-lg-11">
-                        <h1 className="offering-text font-weight-bolder">Unique offering</h1>
+                        <h1 className="offering-text font-weight-bolder mb-4">Unique offering</h1>
                         <h3>Customised preschool, for everyone</h3>
                         <p>Unlike almost anyone else, we don't have a cookie cutter approach to franchising in the United States. Our model ensures that you can open a school anywhere, on (almost) any piece of real estate, and still deliver the highest quality bilingual English-Spanish preschool program anywhere.</p>
                         <p>Our base in the United States is in Texas, with our existing schools in Houston and Austin. Our international franchise system ensures that we can provide support to any franchisee, anywhere in the country.</p>
@@ -144,7 +144,7 @@ function Usa(props){
             </div>
         </section>
 
-        <section className="usa-gallery py-5">
+        <section className="usa-gallery bg-light py-5">
             <div className="container">
                 <div className="row justify-content-center">
                     <div className="col-lg-11">
@@ -159,7 +159,7 @@ function Usa(props){
             <div className="container">
                 <div className="row justify-content-center">
                     <div className="col-lg-11">
-                        <h1 className="financing-text font-weight-bolder">Financing</h1>
+                        <h1 className="financing-text font-weight-bolder mb-4">Financing</h1>
                         <p>We are registered with the SBA, so you can finance your preschool. Depending on the real estate type (new construction, renovation), project type (greenfield, brownfield, acquisition), the capital required could be between USD 500,000 to USD 3 million +. It really depends on the project and what you have in mind (of course, we're here to help and guide you). </p>
                         <p>The flexibility of our model means that you could do a new build on clean land, or acquire an already existing school and convert it to a Kïdo (and everything in between). It opens up several opportunities, specially in areas where population density is high and locating real estate may be a problem.</p>
                     </div>
