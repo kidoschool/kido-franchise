@@ -69,11 +69,12 @@ function Contact(props) {
 
         <section className="contact-section py-5" id="contact-us">
         <div className="container">
-            <header className="text-center mb-5">
-                <h2 className="text-uppercase lined">Contact Us</h2>
-            </header>
             <div className="row justify-content-center">
                 <div className="col-lg-11">
+                    <header className="para mb-5">
+                        <h2 className="text-uppercase lined">Get in touch</h2>
+                        <p>Please fill out the form below and we will be in touch on the next steps.</p>
+                    </header>
                     {/* <form onSubmit="" className="contact-form" id="validateform">
                         <div className="row justify-content-center">
                             <div className="form-group col-lg-12">
